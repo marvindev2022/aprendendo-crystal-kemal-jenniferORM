@@ -1,0 +1,37 @@
+name: myapp
+version: 0.1.0
+
+authors:
+- Marcus Roza <mavirolero@gmail.com>
+
+targets:
+  myapp:
+    main: src/myapp.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    version: 1.4.0
+
+  radix:
+    github: luislavena/radix
+    version: 0.4.1
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.3.0
+
+  backtracer:
+    github: sija/backtracer.cr
+    version: 1.2.2
+
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: 0.2.0
+
+  libraries:
+    libmongoc: 1.1.15
+
+crystal: 1.9.0
+
+license: MIT
